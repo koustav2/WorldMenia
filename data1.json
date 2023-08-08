@@ -1,0 +1,142 @@
+[
+  {
+    "name": {
+      "common": "Saudi Arabia",
+      "official": "Kingdom of Saudi Arabia",
+      "nativeName": {
+        "ara": {
+          "official": "المملكة العربية السعودية",
+          "common": "العربية السعودية"
+        }
+      }
+    },
+    "tld": [".sa", ".السعودية"],
+    "cca2": "SA",
+    "ccn3": "682",
+    "cca3": "SAU",
+    "cioc": "KSA",
+    "independent": true,
+    "status": "officially-assigned",
+    "unMember": true,
+    "currencies": { "SAR": { "name": "Saudi riyal", "symbol": "ر.س" } },
+    "idd": { "root": "+9", "suffixes": ["66"] },
+    "capital": ["Riyadh"],
+    "altSpellings": [
+      "Saudi",
+      "SA",
+      "Kingdom of Saudi Arabia",
+      "Al-Mamlakah al-‘Arabiyyah as-Su‘ūdiyyah"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "languages": { "ara": "Arabic" },
+    "translations": {
+      "ara": { "official": "المملكة العربية السعودية", "common": "السعودية" },
+      "bre": {
+        "official": "Rouantelezh Arabia Saoudat",
+        "common": "Arabia Saoudat"
+      },
+      "ces": {
+        "official": "Saúdskoarabské království",
+        "common": "Saúdská Arábie"
+      },
+      "cym": {
+        "official": "Kingdom of Saudi Arabia",
+        "common": "Saudi Arabia"
+      },
+      "deu": {
+        "official": "Königreich Saudi-Arabien",
+        "common": "Saudi-Arabien"
+      },
+      "est": {
+        "official": "Saudi Araabia Kuningriik",
+        "common": "Saudi Araabia"
+      },
+      "fin": {
+        "official": "Saudi-Arabian kuningaskunta",
+        "common": "Saudi-Arabia"
+      },
+      "fra": {
+        "official": "Royaume d'Arabie Saoudite",
+        "common": "Arabie Saoudite"
+      },
+      "hrv": {
+        "official": "Kraljevina Saudijska Arabija",
+        "common": "Saudijska Arabija"
+      },
+      "hun": { "official": "Szaúd-Arábia", "common": "Szaúd-Arábia" },
+      "ita": { "official": "Arabia Saudita", "common": "Arabia Saudita" },
+      "jpn": { "official": "サウジアラビア王国", "common": "サウジアラビア" },
+      "kor": { "official": "사우디아라비아 왕국", "common": "사우디아라비아" },
+      "nld": {
+        "official": "Koninkrijk van Saoedi-Arabië",
+        "common": "Saoedi-Arabië"
+      },
+      "per": { "official": "پادشاهی عربی سَعودی", "common": "عربستان سعودی" },
+      "pol": {
+        "official": "Królestwo Arabii Saudyjskiej",
+        "common": "Arabia Saudyjska"
+      },
+      "por": {
+        "official": "Reino da Arábia Saudita",
+        "common": "Arábia Saudita"
+      },
+      "rus": {
+        "official": "Королевство Саудовская Аравия",
+        "common": "Саудовская Аравия"
+      },
+      "slk": {
+        "official": "Saudskoarabské kráľovstvo",
+        "common": "Saudská Arábia"
+      },
+      "spa": {
+        "official": "Reino de Arabia Saudita",
+        "common": "Arabia Saudí"
+      },
+      "srp": {
+        "official": "Краљевина Саудијска Арабија",
+        "common": "Саудијска Арабија"
+      },
+      "swe": {
+        "official": "Kungadömet Saudiarabien",
+        "common": "Saudiarabien"
+      },
+      "tur": {
+        "official": "Suudi Arabistan Krallığı",
+        "common": "Suudi Arabistan"
+      },
+      "urd": { "official": "مملکتِ سعودی عرب", "common": "سعودی عرب" },
+      "zho": { "official": "沙特阿拉伯王国", "common": "沙特阿拉伯" }
+    },
+    "latlng": [25.0, 45.0],
+    "landlocked": false,
+    "borders": ["IRQ", "JOR", "KWT", "OMN", "QAT", "ARE", "YEM"],
+    "area": 2149690.0,
+    "demonyms": {
+      "eng": { "f": "Saudi Arabian", "m": "Saudi Arabian" },
+      "fra": { "f": "Saoudienne", "m": "Saoudien" }
+    },
+    "flag": "\uD83C\uDDF8\uD83C\uDDE6",
+    "maps": {
+      "googleMaps": "https://goo.gl/maps/5PSjvdJ1AyaLFRrG9",
+      "openStreetMaps": "https://www.openstreetmap.org/relation/307584"
+    },
+    "population": 34813867,
+    "fifa": "KSA",
+    "car": { "signs": ["SA"], "side": "right" },
+    "timezones": ["UTC+03:00"],
+    "continents": ["Asia"],
+    "flags": {
+      "png": "https://flagcdn.com/w320/sa.png",
+      "svg": "https://flagcdn.com/sa.svg",
+      "alt": "The flag of Saudi Arabia has a green field, at the center of which is an Arabic inscription — the Shahada — in white above a white horizontal sabre with its tip pointed to the hoist side of the field."
+    },
+    "coatOfArms": {
+      "png": "https://mainfacts.com/media/images/coats_of_arms/sa.png",
+      "svg": "https://mainfacts.com/media/images/coats_of_arms/sa.svg"
+    },
+    "startOfWeek": "sunday",
+    "capitalInfo": { "latlng": [24.65, 46.7] },
+    "postalCode": { "format": "#####", "regex": "^(\\d{5})$" }
+  }
+]

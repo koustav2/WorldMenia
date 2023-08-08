@@ -1,0 +1,20 @@
+.back-btn {
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #1e1e1e;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.back-btn:hover {
+    background-color: #3d3d3d;
+}
+.back-btn:active {
+    background-color: #000000;
+}
+.back-btn:focus {
+    background-color: #000000;
+}

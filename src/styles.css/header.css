@@ -1,0 +1,65 @@
+header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 1px 5px hsl(0, 0%, 0%, 0.2);
+    position: sticky;
+}
+
+nav {
+    width: 85%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.where-to-div {
+    justify-self: left;
+    align-self: center;
+    font-weight: 900;
+}
+
+.header-btn {
+    color: var(--text);
+    padding: 0.6em;
+
+    svg {
+        fill: white;
+        outline: currentColor;
+        transition: all 0.4s cubic-bezier(0.39, 0.575, 0.565, 1);
+    }
+}
+
+.header-btn.active {
+    .theme-changer-div {
+        fill: currentColor;
+    }
+}
+
+.moon-icon {
+    width: 22px;
+    height: 22px;
+    align-self: center;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+.dark-mode-txt {
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.theme-changer-div {
+    display: flex;
+    justify-self: right;
+}
+
+@media (max-width: 425px) {
+    .where-to-div h2 {
+        display: -webkit-box;
+        -webkit-line-clamp: 3; /* Adjust the number of lines as needed */
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}

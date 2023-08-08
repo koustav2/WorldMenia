@@ -1,0 +1,92 @@
+.loader {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 6em 0;
+
+    p {
+        margin-top: 2em;
+        text-align: center;
+    }
+}
+.loading {
+    animation: rotate-center 1s ease-in-out infinite forwards;
+}
+
+/* dark mode */
+.header-btn {
+    color: var(--text);
+    padding: 0.6em;
+
+    svg {
+        fill: white;
+        outline: currentColor;
+        transition: all 0.4s cubic-bezier(0.39, 0.575, 0.565, 1);
+    }
+}
+@media (max-width: 375px) {
+    .header-btn {
+        h1 {
+            max-width: 117px;
+        }
+    }
+}
+.header-btn.active {
+    svg {
+        fill: currentColor;
+    }
+}
+
+/* animations */
+@keyframes rotate-center {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.wrapper {
+    width: 94%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.marginBtm {
+    margin-bottom: 10em;
+}
+.container {
+    display: flex;
+}
+
+/* flex utilities */
+.flex {
+    display: flex;
+}
+.flex-wrap {
+    flex-wrap: wrap;
+}
+.f-center-x {
+    justify-content: center;
+}
+.f-center-y {
+    align-items: center;
+}
+.f-btw {
+    justify-content: space-between;
+}
+
+.sr-only {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important; /* 1 */
+    -webkit-clip-path: inset(50%) !important;
+    clip-path: inset(50%) !important; /* 2 */
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    white-space: nowrap !important; /* 3 */
+}
