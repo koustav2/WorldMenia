@@ -56,16 +56,22 @@
     li {
         color: var(--text);
         margin-top: 8px;
+        font-size: 14px;
 
         span {
             color: var(--gray);
+            margin-left: 2em;
+        }
+
+        &::first-letter {
+            text-transform: uppercase;
         }
     }
 }
 
 @media (max-width: 768px) {
     .card-grid {
-        margin: 10em;
+        margin: 2em; /* Adjust the margin for mobile layout */
         display: grid;
         grid-template-columns: repeat(2, minmax(200px, 1fr));
         grid-gap: 48px;
@@ -96,6 +102,17 @@
                 }
             }
         }
+    }
+}
+
+@media (max-width: 425px) {
+    .card-grid {
+        margin: 2em;
+        display: flex; /* Change to flex display */
+        flex-direction: column;
+        flex-wrap: nowrap; /* Prevent cards from wrapping */
+        overflow-x: auto; /* Add horizontal scrolling */
+        gap: 24px; /* Adjust gap between cards */
     }
 }
 
